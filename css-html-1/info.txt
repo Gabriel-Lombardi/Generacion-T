@@ -1,0 +1,4 @@
+¡Hola profesor/a! Soy Gabriel Tomás Lombardi (ET35). Voy a utilizar este archivo para aclaraciones sobre el trabajo.
+
+El archivo "index.html" y la carpeta "CSS" con su archivo "style.css" dentro de la misma, son simplemente archivos genericos (creados por mi) que cree para
+copiar y pegar en cada ejercicio y poder empezar directamente con la creacion de cada página.

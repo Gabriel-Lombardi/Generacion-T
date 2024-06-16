@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso evento deportivo</title>
+    <link rel="icon" href="../src/generacionT.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div id="formulario">
+        <form method="POST">
+            <h1>Información Básica</h1>
+            <label for="nombre">Nombre/s: </label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="apellido">Apellido/s: </label>
+            <input type="text" name="apellido" id="apellido">
+            
+            <label for="edad">Edad: </label>
+            <input type="number" min="12" max="25" name="edad" id="edad" value="12">
+            
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+            <br>
+            <h1>Selección de Categoría</h1>
+
+            <label for="categoria">Selecciona tu categoría.</label>
+            <select name="categoria" id="categoria" >
+                <option value="sub12">Sub-12</option>
+                <option value="sub15">Sub-15</option>
+                <option value="sub18">Sub-18</option>
+                <option value="sub21">Sub-21</option>
+                <option value="sub25">Sub-25</option>
+            </select>
+            
+            <br>
+            <h1>Posición en el Campo</h1>
+            <label for="posicion">Selecciona tu posición.</label>
+            <select name="posicion" id="posicion" value="Posición">
+                <option value="Arquero">Arquero</option>
+                <option value="Defensor">Defensor</option>
+                <option value="Mediocampista">Mediocampista</option>
+                <option value="Delantero">Delantero</option>
+            </select>
+            <br>
+            <!-- TERMINOS Y CONDICIONES -->
+            <label for="tyc">
+                Acepto los <a href="Terminos_y_Condiciones_para_el_Evento_Deportivo.html" target="_blank">Términos y Condiciones</a> del torneo: 
+                <input type="checkbox" name="tyc" id="tyc" value="consent">
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+
+    </div>
+</body>
+</html>

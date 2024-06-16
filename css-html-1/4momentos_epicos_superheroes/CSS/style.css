@@ -1,0 +1,43 @@
+* {
+    background-color:rgb(51, 75, 121);
+}
+
+body {
+    color: white;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-bottom-style: dotted;
+    padding-bottom: 1vh;
+}
+
+h2 {
+    font-size: 20pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: wavy underline;
+    text-decoration-color:rgb(243, 108, 108);
+}
+
+p {
+    font-size: 12pt;
+    text-indent: 2em;
+    line-height: 25px;
+}
+
+li {
+    font-size: 20pt;
+    font-family: arial;
+}
+
+#dialogo {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+iframe {
+    border-style: inset;
+    border-width: 5px;
+    border-color: chocolate;
+    border-radius: 10px;
+}
